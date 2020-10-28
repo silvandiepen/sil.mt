@@ -2,25 +2,28 @@
 
 I'm working mainly as a frontend developer. Besides my work I also work on several (little) open source projects. Here are a few of those;
 
-### Dokkie
+
+## Projects
+
+#### Dokkie
 
 A static site generator to easily create documentation/websites from markdown files. This little website is also fully made using Dokkie
 
 https://www.dokkie.dev
 
-### DrawType
+#### DrawType
 
 Create fonts by drawing letters on your iPad. So far it just draws, it doesnt save, or export...  Hope one day..
 
 https://dev.drawtype.nl/
 
-### Spleet
+#### Spleet
 
 Split a long text into tweets.
 
 https://spleet.sil.mt/
 
-### Silicons
+#### Silicons
 
 A full set of single div CSS only icons (just for fun).
 
@@ -38,53 +41,53 @@ A toolset of functions to make CLI scripts pretty.
 
 https://cli-block.sil.mt
 
-### Deutschland
+#### Deutschland
 
 When I'm on the road, mainly in Germany. I always wonder where certain cars are from. Since you can see that on the licenseplate, I made a tool to look them up fast.
 
 https://de.sil.mt/
 
-### Stylelint Logical Order
+#### Stylelint Logical Order
 
 A plugin extension for Stylelint to order your CSS in a logical order.
 
 https://css-order.sil.mt
 
 
-### Passport
+#### Passport
 
 Compare Passports on what they are worth. Including combinations.
 
 https://passport.sil.mt
 
-### Pixler
+#### Pixler
 
 A stupid tool to make pixel art 
 
 https://pixler.sil.mt
 
-### WS Launcher
+#### WS Launcher
 
 Launch a Web Socket with Mock data
 
 https://ws-launcher.sil.mt
 
-### Aybu
+#### Aybu
 
 A collection of html special characters
 
 https://aybu.sil.mt
 
 
-## Some (buggy) games I was working on..
+### Some (buggy) games I was working on..
 
-### Nines
+#### Nines
 
 Tetris, but different
 
 https://nines.tigger.studio
 
-### Memicon
+#### Memicon
 
 Memory with emojis
 
