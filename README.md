@@ -1,6 +1,6 @@
 ---
 projectTitle: sil.mt
-title: 
+title: home
 ---
 
 # Hi! I am Sil van Diepen
