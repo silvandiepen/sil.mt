@@ -1,5 +1,6 @@
 ---
 projectTitle: sil.mt
+projectLogo: /assets/logo.svg
 title: home
 ---
 
