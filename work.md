@@ -1,7 +1,10 @@
+---
+title: Work
+---
+
 # Work
 
 I'm working mainly as a frontend developer. Besides my work I also work on several (little) open source projects. Here are a few of those;
-
 
 ## Projects
 
@@ -13,7 +16,7 @@ https://www.dokkie.dev
 
 #### DrawType
 
-Create fonts by drawing letters on your iPad. So far it just draws, it doesnt save, or export...  Hope one day..
+Create fonts by drawing letters on your iPad. So far it just draws, it doesnt save, or export... Hope one day..
 
 https://dev.drawtype.nl/
 
@@ -53,7 +56,6 @@ A plugin extension for Stylelint to order your CSS in a logical order.
 
 https://css-order.sil.mt
 
-
 #### Passport
 
 Compare Passports on what they are worth. Including combinations.
@@ -62,7 +64,7 @@ https://passport.sil.mt
 
 #### Pixler
 
-A stupid tool to make pixel art 
+A stupid tool to make pixel art
 
 https://pixler.sil.mt
 
@@ -77,7 +79,6 @@ https://ws-launcher.sil.mt
 A collection of html special characters
 
 https://aybu.sil.mt
-
 
 ### Some (buggy) games I was working on..
 

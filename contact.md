@@ -1,3 +1,7 @@
+---
+title: Contact
+---
+
 # Contact
 
 You can find more information of me or contact me using the following profiles, or just send me an email at [me@sil.mt](me@sil.mt)
