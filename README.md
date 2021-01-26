@@ -1,7 +1,7 @@
 ---
+projectTitle: Sil.mt
 projectLogo: assets/logo.svg
-projectTitle: Sil van Diepen
-title: Home
+title: home
 ---
 
 # Hi! I am Sil van Diepen
