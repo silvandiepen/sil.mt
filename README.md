@@ -2,6 +2,7 @@
 projectTitle: Sil.mt
 projectLogo: assets/logo.svg
 title: home
+hide: true
 ---
 
 # Hi! I am Sil van Diepen
