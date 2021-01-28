@@ -68,11 +68,11 @@ A stupid tool to make pixel art
 
 https://pixler.sil.mt
 
-#### WS Launcher
+#### WS Launch
 
 Launch a Web Socket with Mock data
 
-https://ws-launcher.sil.mt
+https://ws-launch.sil.mt
 
 #### Aybu
 
