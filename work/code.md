@@ -4,9 +4,13 @@ I'm working mainly as a frontend developer. Besides my work I also work on sever
 
 ## Projects
 
+A the moment I'm mainly working on Open letter, a simple tool which makes it easy to create websites just using Markdown files for content. It's practically a 2.0 version of Dokkie with less features but a lot faster. 
+
+https://openletter.sil.mt/
+
 #### Dokkie
 
-A static site generator to easily create documentation/websites from markdown files. This little website is also fully made using Dokkie
+A static site generator to easily create documentation/websites from markdown files. 
 
 https://www.dokkie.dev
 
