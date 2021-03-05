@@ -12,4 +12,4 @@ I currently live with my wife and little son in a small city on the island of Ma
 
 You can find me on [Instagram](https://instagram.com/silvandiepen), [Twitter](https://twitter.com/silvandiepen), [Dribbble](https://dribbble.com/silvandiepen), [LinkedIn](https://linkedin.com/in/silvandiepen) and [GitHub](https://www.github.com/silvandiepen).
 
-
+![Dinos](https://sil.mt/assets/dinos.svg)
