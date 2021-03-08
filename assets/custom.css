@@ -1,0 +1,24 @@
+.archive--blog .archive__image {
+  flex-shrink: 0;
+}
+.archive--blog .archive__link {
+  width: 100%;
+}
+
+.archive--blog .archive__tags {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  text-align: center;
+  padding: 0;
+  opacity: 0.25;
+  transition: opacity var(--transition);
+  margin-top: calc(var(--space) * -1);
+}
+.archive--blog .archive__tags:hover {
+  opacity: 1;
+}
+.archive--blog .archive__item {
+  border-radius: var(--border-radius);
+  display: block;
+}
