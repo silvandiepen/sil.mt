@@ -5,4 +5,4 @@ I'm still working on this.. but in the mean time, you can check out some of my i
 https://instagram.com/slvndpn
 https://instagram.com/siliconsnl/
 
-![Dino](https://sil.mt/assets/dino.svg)
+![Dino](/assets/dino.svg)

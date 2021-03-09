@@ -22,3 +22,17 @@
   border-radius: var(--border-radius);
   display: block;
 }
+
+.alert {
+  padding: var(--space);
+  background-color: var(--accent);
+  border-radius: var(--border-radius);
+}
+
+.alert.alert--success {
+  background-color: var(--green-10);
+  color: var(--green-80);
+}
+.content img {
+  max-width: 100%;
+}
