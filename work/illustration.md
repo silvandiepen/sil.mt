@@ -6,3 +6,7 @@ https://instagram.com/slvndpn
 https://instagram.com/siliconsnl/
 
 ![Dino](/assets/dino.svg)
+
+::: warning
+This is a tip
+:::
