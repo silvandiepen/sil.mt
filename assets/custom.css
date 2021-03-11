@@ -132,14 +132,14 @@ svg .title-group path:nth-child(20) {
   content: "Dark";
 }
 
-.content a {
+.content a:not([class]) {
   position: relative;
   text-decoration: none;
   z-index: 1;
   display: inline-block;
 }
 
-.content a::before {
+.content a:not([class])::before {
   content: "";
   width: 100%;
   height: 2px;
@@ -153,23 +153,18 @@ svg .title-group path:nth-child(20) {
 
 .content a[href*="github.com"] {
   --underline-color: #ffd33d;
-  /* color: var(--black); */
 }
 .content a[href*="codepen.io"] {
   --underline-color: #111111;
-  /* color: var(--black); */
 }
 .content a[href*="twitter.com"] {
   --underline-color: #08a0e9;
-  /* color: var(--white); */
 }
 .content a[href*="dribbble.com"] {
   --underline-color: #ea4c89;
-  /* color: var(--white); */
 }
 .content a[href*="linkedin.com"] {
   --underline-color: #0e76a8;
-  /* color: var(--white); */
 }
 .content a[href*="instagram.com"] {
   --underline-color: linear-gradient(
@@ -184,4 +179,57 @@ svg .title-group path:nth-child(20) {
 
 body {
   --transition: 0.3s cubic-bezier(0, 0.75, 0.75, 1.25);
+}
+
+@media screen and (max-width: 720px) {
+  /* .archive--blog .archive__item {
+    padding: calc(var(--space) / 2) 0;
+  }
+  .archive--blog .archive__image--empty {
+    display: none;
+  }
+  .archive--blog .archive__link {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+    color: var(--background);
+  }
+
+  .archive--blog .archive__date + .archive__text {
+    margin-left: 0;
+  }
+  .archive--blog .archive__tags {
+    justify-content: flex-start;
+    margin-top: 0;
+  } */
+
+  /* 
+  .navigation__input ~ .header .navigation.center {
+    background-color: var(--foreground);
+    color: var(--background);
+    padding: var(--space);
+  } */
+
+  /* .navigation__input
+    ~ .header
+    .navigation
+    .navigation__item
+    + .navigation__item {
+    margin-top: 0;
+  } */
+  /* .navigation__input ~ .header .navigation .navigation__link::before {
+    background-color: var(--foreground);
+  } */
+  /* .navigation__input:checked ~ .navigation__toggle {
+    background-color: var(--foreground);
+    color: var(--background);
+  }
+  .navigation__toggle::before {
+    content: none;
+  }
+  .navigation__toggle {
+    background-color: var(--background);
+    color: var(--foreground);
+  } */
 }
