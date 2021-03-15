@@ -3,7 +3,11 @@ date: 2021-03-15
 tags: css, list, styling
 ---
 
-# Styling & Counting lists
+# Styling and Counting lists
+
+<style>
+  ul[class^="example"] li { margin: 0.5em 0;}
+</style>
 
 Creating lists is a standard thing with html, you can either make then unordered `ul` or ordered `ol`. Which will by default give you a dash or a number in the beginning of your list. Many times, I don't want a list by default to look like it does. Therefore, we can style a list easily using css. Usually I would just hide the default `list-style-type` and add my own `::before` in front.
 
@@ -50,9 +54,11 @@ It will look very weird. So what we can do is go a little further;
 ul li{  
   position: relative;
   padding-left: 2em;
+  display: block;
 }
 ul li::before{
   position: absolute; 
+  display: block;
   top: 0; 
   left: 0;
   content: "\2014";
@@ -61,7 +67,8 @@ ul li::before{
 Which will make it look like this;
 
 <style>
-ul.example-list2 li{
+ul.example-list2 li {
+  display: block;
   position: relative;
   padding-left: 2em;
 }
@@ -70,10 +77,12 @@ ul.example-list2 li::before{
   top: 0; 
   left: 0;
   content: "\2014";
+  display: block;
 }
 </style>
+
 <div class="example2">
-  <ul class="example2-list">
+  <ul class="example-list2">
     <li>In hac habitasse platea dictumst. Curabitur blandit, arcu ac pellentesque scelerisque, nisi massa sagittis metus, in luctus velit purus vel purus. Nulla pellentesque vitae ante quis tristique. Sed at neque auctor, condimentum sapien nec, porta ipsum.</li>
     <li>Proin aliquam felis vitae elit hendrerit vulputate. In rhoncus auctor tincidunt. Suspendisse est turpis, semper in aliquet sit amet, porta vitae nulla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non hendrerit purus, sit amet porta turpis.</li>
     <li>Morbi maximus interdum suscipit. Duis consectetur viverra dapibus. Proin efficitur eget arcu vitae viverra. Cras eros velit, iaculis ac mi ac, aliquet bibendum sem. Sed erat mi, semper sed sagittis non, vulputate quis odio. Etiam vitae rutrum nisi. Aenean nisl libero, faucibus a quam vitae, bibendum malesuada neque. Cras lobortis vulputate eros in auctor.</li>
