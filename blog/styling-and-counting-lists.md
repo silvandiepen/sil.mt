@@ -33,3 +33,53 @@ ul.example-list li::before{
     <li>Item three</li>
   </ul>
 </div>
+
+But what, if your list will have really long items?
+
+<div class="example">
+  <ul class="example-list">
+    <li>In hac habitasse platea dictumst. Curabitur blandit, arcu ac pellentesque scelerisque, nisi massa sagittis metus, in luctus velit purus vel purus. Nulla pellentesque vitae ante quis tristique. Sed at neque auctor, condimentum sapien nec, porta ipsum.</li>
+    <li>Proin aliquam felis vitae elit hendrerit vulputate. In rhoncus auctor tincidunt. Suspendisse est turpis, semper in aliquet sit amet, porta vitae nulla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non hendrerit purus, sit amet porta turpis.</li>
+    <li>Morbi maximus interdum suscipit. Duis consectetur viverra dapibus. Proin efficitur eget arcu vitae viverra. Cras eros velit, iaculis ac mi ac, aliquet bibendum sem. Sed erat mi, semper sed sagittis non, vulputate quis odio. Etiam vitae rutrum nisi. Aenean nisl libero, faucibus a quam vitae, bibendum malesuada neque. Cras lobortis vulputate eros in auctor.</li>
+  </ul>
+</div>
+
+It will look very weird. So what we can do is go a little further;
+
+```
+ul li{  
+  position: relative;
+  padding-left: 2em;
+}
+ul li::before{
+  position: absolute; 
+  top: 0; 
+  left: 0;
+  content: "\2014";
+}
+```
+Which will make it look like this;
+
+<style>
+ul.example-list2 li{
+  position: relative;
+  padding-left: 2em;
+}
+ul.example-list2 li::before{
+  position: absolute; 
+  top: 0; 
+  left: 0;
+  content: "\2014";
+}
+</style>
+<div class="example2">
+  <ul class="example2-list">
+    <li>In hac habitasse platea dictumst. Curabitur blandit, arcu ac pellentesque scelerisque, nisi massa sagittis metus, in luctus velit purus vel purus. Nulla pellentesque vitae ante quis tristique. Sed at neque auctor, condimentum sapien nec, porta ipsum.</li>
+    <li>Proin aliquam felis vitae elit hendrerit vulputate. In rhoncus auctor tincidunt. Suspendisse est turpis, semper in aliquet sit amet, porta vitae nulla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non hendrerit purus, sit amet porta turpis.</li>
+    <li>Morbi maximus interdum suscipit. Duis consectetur viverra dapibus. Proin efficitur eget arcu vitae viverra. Cras eros velit, iaculis ac mi ac, aliquet bibendum sem. Sed erat mi, semper sed sagittis non, vulputate quis odio. Etiam vitae rutrum nisi. Aenean nisl libero, faucibus a quam vitae, bibendum malesuada neque. Cras lobortis vulputate eros in auctor.</li>
+  </ul>
+</div>
+
+
+
+### Counting
