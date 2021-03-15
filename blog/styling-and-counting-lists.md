@@ -16,7 +16,8 @@ ul, li{
   list-style-type: none;
 }
 ul li::before{
-  content: "\2014"; // results in a —
+  content: "\2014"; 
+  /* results in a — */
 }
 ```
 
@@ -106,12 +107,8 @@ ol li::before {
 ```
 
 <style>
-ol.example-list3, ol.example-list3 li{
-  list-style-type: none;
-}
-ol.example-list3 li::before{
-  content: "1";
-}
+ol.example-list3, ol.example-list3 li { list-style-type: none; }
+ol.example-list3 li::before{ content: "1"; }
 </style>
 
 <div class="example">
@@ -161,10 +158,12 @@ ol.example-list4 li::before {
 }
 ol.example-list5 li::before {
   content: counter(my-list)".";
- color: red;
   font-weight: bold;
-  text-transform: rotate(2deg;
-  padding: 0.5em; background-color: red; color: white; border-radius: 0.5em
+  text-transform: rotate(2deg);
+  padding: 0.5em; 
+  background-color: red; 
+  color: white; 
+  border-radius: 0.5em
 }
 </style>
 
@@ -181,10 +180,12 @@ And if you want, you can even style your number a bit;
 ```css
 ol li::before{
   content: counter(my-list)'.';
-  color: red;
   font-weight: bold;
-  text-transform: rotate(2deg;
-  padding: 0.5em; background-color: red; color: white; border-radius: 0.5em;
+  text-transform: rotate(2deg);
+  padding: 0.5em; 
+  background-color: red; 
+  color: white; 
+  border-radius: 0.5em;
 }
 ```
 
@@ -195,3 +196,5 @@ ol li::before{
     <li>Item three</li>
   </ol>
 </div>
+
+
