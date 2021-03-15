@@ -50,7 +50,7 @@ But what, if your list will have really long items?
 
 It will look very weird. So what we can do is go a little further;
 
-```
+```css
 ul li{  
   position: relative;
   padding-left: 2em;
@@ -92,3 +92,106 @@ ul.example-list2 li::before{
 
 
 ### Counting
+
+But what, if you have your `ordered-list`, how would you do that? You can't just add a before with a 1. It will give every item a 1. 
+
+
+```css
+ol, ol li{
+  list-style-type: none;
+}
+ol li::before {
+  content: "1";
+}
+```
+
+<style>
+ol.example-list3, ol.example-list3 li{
+  list-style-type: none;
+}
+ol.example-list3 li::before{
+  content: "1";
+}
+</style>
+
+<div class="example">
+  <ol class="example-list3">
+    <li>Item one</li>
+    <li>Item two</li>
+    <li>Item three</li>
+  </ol>
+</div>
+
+That's where the counter comes in!
+
+```css
+ol{
+  counter-reset: my-list;
+}
+ol li {
+  counter-increment: my-list;
+}
+ol, ol li{
+  list-style-type: none;
+}
+ol li::before {
+  content: counter(my-list);
+}
+```
+<style>
+ol.example-list4,
+ol.example-list5{
+  counter-reset: my-list;
+}
+
+ol.example-list4 li, 
+ol.example-list5 li {
+  counter-increment: my-list;
+}
+
+ol.example-list4, 
+ol.example-list4 li,
+ol.example-list5, 
+ol.example-list5 li{
+  list-style-type: none;
+}
+
+ol.example-list4 li::before {
+  content: counter(my-list);
+}
+ol.example-list5 li::before {
+  content: counter(my-list)".";
+ color: red;
+  font-weight: bold;
+  text-transform: rotate(2deg;
+  padding: 0.5em; background-color: red; color: white; border-radius: 0.5em
+}
+</style>
+
+<div class="example">
+  <ol class="example-list4">
+    <li>Item one</li>
+    <li>Item two</li>
+    <li>Item three</li>
+  </ol>
+</div>
+
+And if you want, you can even style your number a bit;
+
+```css
+ol li::before{
+  content: counter(my-list)'.';
+  color: red;
+  font-weight: bold;
+  text-transform: rotate(2deg;
+  padding: 0.5em; background-color: red; color: white; border-radius: 0.5em;
+}
+```
+
+<div class="example">
+  <ol class="example-list5">
+    <li>Item one</li>
+    <li>Item two</li>
+    <li>Item three</li>
+  </ol>
+</div>
