@@ -104,6 +104,11 @@ svg .title-group path:nth-child(20) {
   text-indent: -999em;
 } */
 
+.content h1 {
+  max-width: 100%;
+  white-space: pre-wrap;
+}
+
 .color-mode::after {
   content: "";
   background-color: var(--text);
@@ -201,13 +206,16 @@ body {
 
 .archive--photo .archive__item {
   width: 100%;
-  padding: calc(var(--stil-space) / 2);
+  padding: 0;
 }
-/* @media screen and (min-width: 720px) {
+.archive--photo .archive__item + .archive__item {
+  margin-top: var(--stil-space);
+}
+@media screen and (min-width: 720px) {
   .archive--photo .archive__item {
-    width: 50%;
+    padding: calc(var(--stil-space) / 2);
   }
-} */
+}
 
 .archive--articles .archive__info {
   display: block;
@@ -268,12 +276,22 @@ body {
 
 .language {
   display: flex;
-  position: fixed;
   font-size: 0.8em;
-  left: var(--stil-space);
-  bottom: var(--stil-space);
+  padding: var(--stil-space);
 }
-
+@media screen and (max-width: 720px) {
+  .language {
+    width: 100%;
+    justify-content: center;
+  }
+}
+@media screen and (min-width: 720px) {
+  .language {
+    position: fixed;
+    left: var(--stil-space);
+    bottom: var(--stil-space);
+  }
+}
 .language .language__link {
   display: block;
   position: relative;
