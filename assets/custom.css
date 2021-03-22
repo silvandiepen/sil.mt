@@ -183,3 +183,126 @@ body {
   --stil-current-saturation: 60;
   --stil-negative-lightness: 75;
 }
+
+.archive--photo {
+}
+.archive--photo .archive__date {
+  display: none;
+}
+
+.archive--photo .archive__list {
+  display: block;
+}
+@media screen and (min-width: 720px) {
+  .archive--photo .archive__list {
+    column-count: 2;
+  }
+}
+
+.archive--photo .archive__item {
+  width: 100%;
+  padding: calc(var(--stil-space) / 2);
+}
+/* @media screen and (min-width: 720px) {
+  .archive--photo .archive__item {
+    width: 50%;
+  }
+} */
+
+.archive--articles .archive__info {
+  display: block;
+  padding: calc(var(--stil-space) / 2);
+}
+
+.archive--photo .archive__image {
+  border-radius: var(--stil-border-radius);
+  overflow: hidden;
+  display: block;
+}
+.archive--photo .archive__image img {
+  width: 100%;
+  object-fit: cover;
+  transition: transform var(--stil-transition);
+}
+.archive--photo .archive__image:hover img {
+  transform: scale(1.1);
+}
+.archive--photo .archive__info {
+  display: block;
+  padding: calc(var(--stil-space) / 2);
+}
+.archive--photo .archive__tags {
+  display: none;
+}
+
+.content .images p img {
+  width: 100%;
+  max-width: 100%;
+  border-radius: var(--stil-border-radius);
+}
+
+.content .images p img + br + img {
+  margin-top: 1em;
+}
+
+.content .example {
+  padding: var(--stil-space);
+  border-radius: var(--stil-border-radius);
+  border: 1px solid var(--stil-text);
+  position: relative;
+}
+.content .example::before {
+  content: "example";
+  position: absolute;
+  left: var(--stil-space);
+  top: 0;
+  background-color: var(--stil-background);
+  color: var(--stil-text);
+  padding: calc(var(--stil-space) / 4);
+  border-radius: var(--stil-border-radius);
+  transform: translateY(-50%);
+  text-transform: uppercase;
+  font-size: 0.75em;
+  letter-spacing: 1px;
+}
+
+.language {
+  display: flex;
+  position: fixed;
+  font-size: 0.8em;
+  left: var(--stil-space);
+  bottom: var(--stil-space);
+}
+
+.language .language__link {
+  display: block;
+  position: relative;
+  z-index: 1;
+  padding: 0.5em;
+  text-decoration: none;
+  color: currentColor;
+  transition: opacity var(--stil-transition);
+}
+.language .language__item {
+  position: relative;
+}
+.language .language__item::before {
+  content: none;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 50%;
+  z-index: 0;
+  top: 50%;
+  opacity: 0.25;
+  background-color: var(--stil-primary);
+  border-radius: calc(var(--stil-border-radius) / 2);
+  transform: translate(-50%, -50%);
+}
+
+.language .language__item--active::before {
+  content: "";
+}
+/* .language .language__item + .language__item {
+  margin-left: 0.5em;
+} */

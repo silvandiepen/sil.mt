@@ -1,0 +1,5 @@
+---
+redirect: /blog
+---
+
+# Blog

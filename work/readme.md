@@ -1,5 +1,7 @@
 ---
 title: Work
+type: articles
+isArchive: true
 ---
 
 ![Work](/assets/title-work.svg)
