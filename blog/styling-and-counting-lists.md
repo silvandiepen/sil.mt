@@ -157,13 +157,15 @@ ol.example-list4 li::before {
   content: counter(my-list);
 }
 ol.example-list5 li::before {
-  content: counter(my-list)".";
+  content: counter(my-list)'.';
+  display: inline-block;
   font-weight: bold;
-  text-transform: rotate(2deg);
+  transform: rotate(2deg);
   padding: 0.5em; 
   background-color: red; 
   color: white; 
-  border-radius: 0.5em
+  border-radius: 0.5em;
+  margin-right: 0.25em;
 }
 </style>
 
@@ -180,12 +182,14 @@ And if you want, you can even style your number a bit;
 ```css
 ol li::before{
   content: counter(my-list)'.';
+  display: inline-block;
   font-weight: bold;
-  text-transform: rotate(2deg);
+  transform: rotate(2deg);
   padding: 0.5em; 
   background-color: red; 
   color: white; 
   border-radius: 0.5em;
+  margin-right: 0.25em;
 }
 ```
 
