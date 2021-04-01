@@ -14,7 +14,7 @@ I started with a little shortcut just to go to my repos folder. Which is in my r
 export REPOS_DIR=~/Repositories
 
 function repos(){
-     if [ -z $@ ]
+    if [ -z $@ ]
         then
         cd $REPOS_DIR
     else
@@ -28,12 +28,12 @@ function repos(){
                 then
                 cd $REPOS_DIR/_$@
             else
-                if [[ -n $(find $REPOS_DIR -type d -maxdepth 2 -name $@) ]]
+                if [ -n $(find $REPOS_DIR -type d -maxdepth 2 -name $@) ]
                     then
-                    for i in $(find $REPOS_DIR -type d -maxdepth 2 -name $@);
-                        do
-                        "$@"
-                    done
+                        for i in $(find $REPOS_DIR -type d -maxdepth 2 -name $@);
+                            do
+                            cd $i
+                        done
                 else
                     echo $@ "folder doesn't exist"
                 fi
