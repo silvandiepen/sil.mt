@@ -29,7 +29,7 @@ Just above the user there is `"url"`. Here you add the url which you take from y
 
 ### 3. A mining platform; Unmineable
 
-Go to [Unminable: ADA](https://unmineable.com/coins/ADA), click on 'RandomX' and copy the "global server". Which is; `rx.unmineable.com:3333`. 
+Go to [Unminable: ADA](https://unmineable.com/?ref=o9mk-762e), click on 'RandomX' and copy the "global server". Which is; `rx.unmineable.com:3333`. 
 
 Then you take your copied wallet address and paste in the "Your ADA address" search field. 
 
