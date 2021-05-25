@@ -1,3 +1,9 @@
+---
+date: 2021-05-25
+tags: mining, crypto, cardano, ada, mac
+---
+
+
 # Mining Cardano with a MacBook
 
 Yes, you can mine on your MacBook, is it a good idea? Probably not, because it goes slow and will take you ages to get anything, which will probably cost you more in electricty than it will bring you in ADA. But yeah, why not do it anyway?! :)
