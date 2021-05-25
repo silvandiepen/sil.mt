@@ -19,7 +19,9 @@ That was my thought, so I did figure out how I could do it. You need the followi
 To mine Cardano you can choose two wallets, either Yoroi or Daedelus, since I already have a Yoroi one, I will show it using that, but it's quite similar.
 Download the [Yoroi app](https://yoroi-wallet.com), Register and create a wallet. 
 
-Once you are in the wallet, you can click on "Receive" where you will be prompted a screen with a ![yoroi wallet screenshot](https://user-images.githubusercontent.com/5363051/119467007-7055db00-bd45-11eb-9738-322baa6b4979.png) copy the address from the fresh addresses.
+Once you are in the wallet, you can click on "Receive" where you will be prompted a screen with a copy the address from the fresh addresses.
+
+![yoroi wallet screenshot](https://user-images.githubusercontent.com/5363051/119467007-7055db00-bd45-11eb-9738-322baa6b4979.png) 
 
 
 ### 2. Mining tools; XMRig
