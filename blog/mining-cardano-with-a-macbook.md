@@ -32,8 +32,31 @@ Open the folder, here you will find a `config.json` file. In the file you alter 
 
 Under `"pool"` you find `"user"`. Here you add the address you copied from your wallet in step 1. `"ADA:[YOURADDRESS].[SOMENAME]"`. So, in front you add ADA, because thats what we will be mining, a dot, your address, another dot and at last you add a reference to which computer you ar emining on. In this way the tools can distinguish between multiple computers if you would do so. I for instance added `.MBP` because I will mine this on my MacBook Pro.
 
-Just above the user there is `"url"`. Here you add the url which you take from your mining platform (`rx.unmineable.com:3333`).
+Just above the user there is `"url"`. Here you add the url which you take from your mining platform (`rx.unmineable.com:3333`). And "algo" which should have a value of `"rx/0"`.
 
+It should look something like this;
+
+```
+"pools": [
+        {
+            "algo": "rx/0",
+            "coin": null,
+            "url": "rx.unmineable.com:3333",
+            "user": "ADA:addr1qy0nqdkjyxu...mywallet...q4yrmshkwyw3zwasswpjc0y.MBP",
+            "pass": "x",
+            "rig-id": null,
+            "nicehash": false,
+            "keepalive": false,
+            "enabled": true,
+            "tls": false,
+            "tls-fingerprint": null,
+            "daemon": false,
+            "socks5": null,
+            "self-select": null,
+            "submit-to-origin": false
+        }
+    ],
+```
 
 ### 3. A mining platform; Unmineable
 
