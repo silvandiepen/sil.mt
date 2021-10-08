@@ -19,7 +19,7 @@ const createInput = (name) => {
   const inputField = document.createElement("input");
   inputField.setAttribute("type", "color");
   inputField.setAttribute("id", name);
-  inputField.setAttribute("value", stilColors[name]);
+  inputField.setAttribute("value", stilColors[name].trim());
   inputField.style.cssText =
     "width: 2em; height: 2em; margin: 0.5em; border: 0; padding: 0; background: none;";
 
@@ -66,6 +66,20 @@ const createColorModal = () => {
     createField(color, parent);
   });
 
+  const resetButton = document.createElement("button");
+  resetButton.innerHTML = "reset";
+  resetButton.classList.add("button");
+  resetButton.style.cssText = "margin: 0.5em auto auto auto;";
+  resetButton.addEventListener("click", () => {
+    localStorage.removeItem("stilColors");
+    Object.keys(stilColors).forEach((key) => {
+      stilColors[key] = "";
+    });
+    // getLocalStorageColors();
+    applyColors();
+  });
+  parent.appendChild(resetButton);
+
   document.body.appendChild(parent);
 };
 
@@ -76,7 +90,11 @@ const saveToLocalStorage = () => {
 
 const applyColors = () => {
   Object.keys(stilColors).forEach((key) => {
-    document.body.style.setProperty(`--stil-${key}`, stilColors[key]);
+    if (stilColors[key]) {
+      document.body.style.setProperty(`--stil-${key}`, stilColors[key]);
+    } else {
+      document.body.style.removeProperty(`--stil-${key}`);
+    }
   });
 };
 
@@ -89,13 +107,17 @@ const getLocalStorageColors = () => {
     });
 
     applyColors();
+  } else {
+    Object.keys(stilColors).forEach((key) => {
+      stilColors[key] = getComputedStyle(document.body).getPropertyValue(
+        `--stil-${key}`
+      );
+    });
   }
 };
 
 const createButton = () => {
   const container = document.querySelector(".footer .navigation__list");
-
-  console.log(container);
 
   const button = document.createElement("button");
   button.classList.add("button");
@@ -107,8 +129,6 @@ const createButton = () => {
 };
 
 const initSwitchColor = () => {
-  //   document.head.appendChild(customStyleElement);
-  console.log(document);
   createButton();
   getLocalStorageColors();
 };
