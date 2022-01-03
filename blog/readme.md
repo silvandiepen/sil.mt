@@ -1,6 +1,7 @@
 ---
 type: blog
 isArchive: true
+title: Blog
 ---
 
 # Blog

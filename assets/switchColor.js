@@ -5,16 +5,14 @@ document.addEventListener("DOMContentLoaded", function () {
 let stilColors = {
   primary: "",
   secondary: "",
-  dark: "",
-  "dark-accent": "",
-  light: "",
-  "light-accent": "",
+  background: "",
+  foreground: "",
 };
 const styles = {
   field:
-    "background-color: var(--stil-foreground); padding: 1em; border-radius: var(--stil-border-radius); margin-top: 0.5em; display: flex; flex-direction: row-reverse; justify-content: space-between; align-items: center;",
+    "background-color: var(--ol-background); padding: 1em; border-radius: var(--ol-border-radius); margin-top: 0.5em; display: flex; flex-direction: row-reverse; justify-content: space-between; align-items: center;",
   modal:
-    "position:fixed;padding: var(--space,1em); z-index:100;color: var(--stil-background); background:var(--stil-foreground-accent); border-radius: var(--stil-border-radius); top: 50%; left: 50%; transform: translate(-50%,-50%)",
+    "position:fixed;padding: var(--ol-space,1em); z-index:100;color: var(--ol-foreground); background:var(--ol-background90); border-radius: var(--ol-border-radius); top: 50%; left: 50%; transform: translate(-50%,-50%)",
   closeButton: "position: absolute; left: 100%; bottom: 100%;",
   inputField:
     "width: 2em; height: 2em; margin: 0.5em; border: 0; padding: 0; background: none;",
@@ -127,9 +125,9 @@ const saveToLocalStorage = () => {
 const applyColors = () => {
   Object.keys(stilColors).forEach((key) => {
     if (stilColors[key]) {
-      document.body.style.setProperty(`--stil-${key}`, stilColors[key]);
+      document.body.style.setProperty(`--ol-${key}`, stilColors[key]);
     } else {
-      document.body.style.removeProperty(`--stil-${key}`);
+      document.body.style.removeProperty(`--ol-${key}`);
     }
   });
 };
@@ -146,7 +144,7 @@ const getLocalStorageColors = () => {
   } else {
     Object.keys(stilColors).forEach((key) => {
       stilColors[key] = getComputedStyle(document.body).getPropertyValue(
-        `--stil-${key}`
+        `--ol-${key}`
       );
     });
   }

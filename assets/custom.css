@@ -3,13 +3,11 @@ svg * {
 }
 
 body {
-  --stil-border-radius: 1em;
-  --stil-secondary: #1fa1dd;
-  --stil-primary: #ce3f76;
-  --stil-light: #fffae0;
-  --stil-light-accent: #eee8cb;
-  --stil-dark: #15003b;
-  --stil-dark-accent: #0c0022;
+  --ol-border-radius: 1em;
+  --ol-secondary: #1fa1dd;
+  --ol-primary: #ce3f76;
+  --ol-background: #fffae0;
+  --ol-foreground: #15003b;
   font-size: 18px;
 }
 
