@@ -1,3 +1,7 @@
+---
+date: 2008-05-29
+---
+
 # Dag 5 - Tsjernobyl
 
 En dan is het eindelijk zover, vandaag gaan we naar Tsjernobyl. Om 9 uur zouden we opgehaald door onze gids dus mijn wekkertje stond wonderbaarlijk netjes op half 8. Dus, netjes als ik ben, kom ik om kwart voor 8 m'n bed uit. Waarop Sjoerd 'n half uur later mijn voorbeeld volgde. Heerlijk in bad gehangen, genoten van het laatste beetje vruchtensap en de vreselijk lekkere broodjes Philadelphia. Nu is echt alles op! Tijd om boodschappen te doen, maar dat word morgen.

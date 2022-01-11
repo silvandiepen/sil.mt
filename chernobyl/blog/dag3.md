@@ -1,3 +1,7 @@
+---
+date: 2008-05-27
+---
+
 # Dag 3 - Dierentuin
 
 Opgestaan om een uurtje of 10, tsjah ik was al wakker.. Sjoerd ligt natuurlijk nog, hoe kan het ook anders nog volledig in coma. Broodje eten, verhaaltje van de vorige dag schrijven, beetje in bad. Wat overigens geweldig is, de waterdruk hier! Zoals het in bij ons 'n half uur kan duren voor het bad vol is is dat hier in 'n paar minuten gedaan. Geweldig!
@@ -15,4 +19,3 @@ Goeddd.. We Need Food! Dus dan maar het boekje wat we gister hebben gehad van de
 Al het japans achter de rug kwamen we op het idee om te laten vervoeren naar een ierse pub die ook in het boekje beschreven stond. Helaas was het dan ook echt 'n ierse pub! Waarom? Hebben? Die? Gasten? Altijd zo veel licht aan?! Gezelligheid, none! Verder was er wel 1 voordeel, we hadden ons laten ontvoeren door meneer de taxichauffeur die natuurlijk ook geen engels kon naar 'n plek in Kiev waar dus heel veel bars, restaurants en clubs zijn. Het kan dus toch! Zo hebben we ons na de ierse pub laten leiden (door onzelf, dat dan weer wel) naar 'n restaurant/bar met 'n iets wat oosters tintje. Zag er allemaal zeer goed uit, alleen ongeveer 5 jaar geleden. Verder wel heel netjes en schoon. Daar ging Sjoerd dan ook vol goede moed voor 'n mojito en ik was van plan weer te gaan genieten van mijn eigenste lijfdrankje wat ik toch al tijden niet had gehad, een "tequila redbull". Mocht het alleen natuurlijk weer zo zijn dat ze geen redbull hadden dus dan maar met sprite.
 
 Leuke avond verder hoor, gelachen, gehuild, gestruikelt, gerend, trappen gelopen, slap geouwehoert! Al die dingen, en zo belanden we dan ook weer netjes om een uurtje of elf in ons appartementje waar wij ons tegoed hebben gedaan aan 'n dvdtje. Dit keer werd het Contract, met morgan freeman.
-

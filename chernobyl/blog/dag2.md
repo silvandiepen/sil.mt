@@ -1,3 +1,7 @@
+---
+date: 2008-05-26
+---
+
 # Dag 2 - Eerste dag
 
 Na netjes om half 1 op gestaan te zijn, een bad genomen en ruzie gehad met de stop. Sjoerd niet, kortom, ik ben 'n prutser. Maargoed, ontbijt!. Eindelijk een knappe stek gevonden waar je normaal voedsel kan halen. Zag er allemaal heel netjes uit, goede koffie en lekkere broodjes en ze hebben d'r ook wifi (zoals de meeste restaurantdingen). Hier hebben we dan maar even wat gedronken en gegeten.

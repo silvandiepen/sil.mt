@@ -1,3 +1,7 @@
+---
+date: 2008-05-25
+---
+
 # Dag 1 - Kiev
 
 Na natuurlijk veel te vroeg voor ons doen op te moeten staan (we zouden om 9:45 gaan vliegen) werden we door Sam gebracht naar Schiphol. Daar verder geen problemen, waren al ingechecked, zo doorlopen beetje wachten, verbaasd staan over de mensen hoe je ze kan herkennen dat ze Oekrains zijn en in het vliegtuig hangen. Wij een ticket bij KLM geboekt omdat we toch iets hadden van.. doe maar KLM, liever geen Ukrainian Airlines, werden we toch in 'n vliegtuig geprakt van Ukrainian Airlines. Niks aan te doen.

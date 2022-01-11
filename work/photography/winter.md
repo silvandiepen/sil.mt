@@ -3,7 +3,9 @@ tags: photography,winter,netherlands
 image: https://cdn.sil.mt/photography/winter/thumb/Winter_1.jpg
 ---
 
-# Bridges
+# Winter
+
+Something I don't miss, but it gives nice images.
 
 <div class="images">
 

@@ -1,3 +1,7 @@
+---
+date: 2008-05-28
+---
+
 # Dag 4 - Exploring
 
 Vandaag weer iets eerder wakker, beetje in bad hangen, beetje ontbijten, beetje verhaaltje aftypen, beetje fotootjes organisen en dan (een uur of 3 later) Sjoerd maar is z'n bed uit trekken. Deze kwam redelijk snel ze bedje uit en na zijn ochtenddouchepartij zijn we maar naar de "Angel Lounge" gegaan. Waar we onder het genot van koffie, vruchtendrankje en wifi even gehangen hebben.
@@ -13,4 +17,3 @@ Dan maar weer naar het appartement. Wowa (de taxidriver) een smsje gestuurd omda
 Maargoed, daar in de club aangekomen merk je toch wel dat je in 'n ander land ben beland. Dit is niet alleen te zien aan de wijze van dansjes van mensen, het enkel drinken van mixjes en vooral de muziek. Over de muziek zou ik nu echt boekdelen kunnen schrijven, maar ik hou het kort. Wat wij hier draaiden in de jaren 90, doen ze nu nog daar. Dat afgewisseld met 'n electrohousebeat die opzich wel ok is, ware het niet dat er toch 'n soort van Russische tint aan meegegeven wordt waardoor het toch weer lekker veel te simpel kent. Zeer fijn om bijvoorbeeld een Eric Clapton voorbij te horen komen in 'n houseremix. Nee, voor de muziek moet je niet naar de Oekraine gaan! Wel voor mooie meisjes, teringgggg... wat lopen er daar veel van zeg. 1 Probleempje dan weer, als je geen russisch of oekrains spreekt heb je er vrij weinig aan, echt niemand, spreekt daar engels, duits, frans of whatever. Dus daar heb je dan weer vrij weinig aan. Verder was het aanbeeld van voordurend afgewisseld wordende danseresjes in het midden van de zaal wel oogstrelend. Alleen vinden ze het daar ook weer nodig om er afentoe een gozer doorheen te gooien die in het kant z'n sexy dansjes doet. Dat brengt overigens onze negercount op 5!
 
 Na deze kennismaking met wat zou moeten zijn de meest hippe nachtclub van Kiev, wat eigenlijk toch best leuk was... zijn we om kwart over 1 weer netjes naar huis gegaan omdat we de volgende ochtend om 9 uur opgehaald zouden gaan worden door meneer de tourguide van Tsjernobyl. Ik ben benieuwd.
-

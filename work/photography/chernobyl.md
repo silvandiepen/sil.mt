@@ -1,13 +1,15 @@
 ---
 tags: photography,chernobyl
-image: https://cdn.sil.mt/photography/chernobyl.jpg
+image: https://cdn.sil.mt/photography/chernobyl/0704.jpg
 ---
 
 # Chernobyl
 
-A photo collection of chernobyl
+A photo collection of chernobyl.
 
-<div class="image-overview">
+When I went there, I also had a little blog over the first few days. Here you can find the [articles](/chernobyl/blog)
+
+<div class="images">
 
 ![Chernobyl](https://cdn.sil.mt/photography/chernobyl/9981.jpg)
 ![Chernobyl](https://cdn.sil.mt/photography/chernobyl/0452.jpg)

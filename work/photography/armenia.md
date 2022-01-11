@@ -5,6 +5,8 @@ image: https://cdn.sil.mt/photography/armenia/thumb/_MG_1783.jpg
 
 # Armenia
 
+My second country and one day it will be my first.
+
 <div class="images">
 
 ![Armenia](https://cdn.sil.mt/photography/armenia/_MG_1783.jpg)

@@ -2,14 +2,14 @@ svg * {
   transform-box: fill-box;
 }
 
-body {
+/* body {
   --ol-border-radius: 1em;
   --ol-secondary: #1fa1dd;
   --ol-primary: #ce3f76;
   --ol-background: #fffae0;
   --ol-foreground: #15003b;
   font-size: 18px;
-}
+} */
 
 @keyframes drawTitle {
   from {
@@ -185,60 +185,6 @@ body {
   --ol-negative-lightness: 75;
 }
 
-.archive--photo {
-}
-.archive--photo .archive__date {
-  display: none;
-}
-
-.archive--photo .archive__list {
-  display: block;
-}
-@media screen and (min-width: 720px) {
-  .archive--photo .archive__list {
-    column-count: 2;
-  }
-}
-
-.archive--photo .archive__item {
-  width: 100%;
-  padding: 0;
-}
-.archive--photo .archive__item + .archive__item {
-  margin-top: var(--ol-space);
-}
-@media screen and (min-width: 720px) {
-  .archive--photo .archive__item {
-    padding: calc(var(--ol-space) / 2);
-  }
-}
-
-.archive--articles .archive__info {
-  display: block;
-  padding: calc(var(--ol-space) / 2);
-}
-
-.archive--photo .archive__image {
-  border-radius: var(--ol-border-radius);
-  overflow: hidden;
-  display: block;
-}
-.archive--photo .archive__image img {
-  width: 100%;
-  object-fit: cover;
-  transition: transform var(--ol-transition);
-}
-.archive--photo .archive__image:hover img {
-  transform: scale(1.1);
-}
-.archive--photo .archive__info {
-  display: block;
-  padding: calc(var(--ol-space) / 2);
-}
-.archive--photo .archive__tags {
-  display: none;
-}
-
 .content .images p img {
   width: 100%;
   max-width: 100%;
@@ -270,9 +216,49 @@ body {
   letter-spacing: 1px;
 }
 
+article.experience {
+  margin-top: 1em;
+  position: relative;
+}
 
-.content img {
-  max-width: 100%;
-  max-height: 80vh;
-  margin: auto;
+article.experience::before {
+  content: "";
+  display: block;
+  width: 0.5em;
+  height: 0.5em;
+  position: absolute;
+  top: 0.125em;
+  border-radius: 50%;
+  background-color: var(--ol-secondary);
+  left: -1em;
+}
+
+@keyframes pulseBulb {
+  0%,
+  100% {
+    transform: scale(1.2);
+  }
+  50% {
+    transform: scale(0.8);
+  }
+}
+article.experience--current::before {
+  animation: pulseBulb 1s infinite;
+}
+
+article.experience {
+  margin-top: 2rem;
+}
+article.experience * {
+  margin-top: 0.5rem;
+}
+article.experience h6 {
+  opacity: 0.5;
+  font-size: 0.875em;
+
+  font-weight: normal;
+  letter-spacing: 0.05em;
+}
+article.experience h4 {
+  font-weight: normal;
 }

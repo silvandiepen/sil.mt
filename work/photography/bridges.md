@@ -5,6 +5,8 @@ image: https://cdn.sil.mt/photography/bridges/thumb/weg.jpg
 
 # Bridges
 
+Just by driving around in my hood trying out my new camera. I came with a little series called "Bridges".
+
 <div class="images">
 
 ![Bridge 1](https://cdn.sil.mt/photography/bridges/weg.jpg)

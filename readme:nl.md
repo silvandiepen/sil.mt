@@ -6,9 +6,7 @@ projectDescription: Kleine persoonlijke website van Sil van Diepen
 title: Over
 ---
 
-![Hi! Ik ben Sil](/assets/title-about.svg)
-
-Ja, dus.. mijn naam is Sil van Diepen. Ik ben een "Creative Frontend Developer", wat ik zie als een frontend developer die zich focussed op het visuele en animatie gedeelte van Frontend development.
+![Hi! Ik ben Sil](/assets/title-about.svg) Ja, dus.. mijn naam is Sil van Diepen. Ik ben een "Creative Frontend Developer", wat ik zie als een frontend developer die zich focussed op het visuele en animatie gedeelte van Frontend development.
 
 I woon, met mijn vrouw en zoontje in een klein stadje op het eiland Malta.
 
