@@ -1,6 +1,6 @@
 ---
 date: 2019-04-01
-tags: opinion, self, this
+tags: opinion, self, this-in-js
 ---
 
 # Self or This?
