@@ -1,8 +1,14 @@
 ---
-background: primary50
+order: 100
 ---
 
 ## Work Experience
+
+
+
+For more details about my functions, check out my [Curriculum Vitae](https://sil.mt/about/cv)
+
+An overview of all my current and past jobs;
 
 <article class="experience experience--current">
 
@@ -91,3 +97,5 @@ background: primary50
 #### Web Developer and Designer at Synetic
 
 </article>
+
+

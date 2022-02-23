@@ -3,8 +3,8 @@ svg * {
 }
 
 :root {
-  --ol-light-rgb: 255, 250, 224;
-  --ol-dark-rgb: 21, 0, 59;
+  --ol-light-rgb: #{rgbValues(#fffae0)};
+  --ol-dark-rgb: #{rgbValues(#15003b)};
 }
 
 @keyframes drawTitle {
@@ -17,65 +17,52 @@ svg * {
 }
 svg .title-group path {
   transform: scale(0);
-  animation: drawTitle calc(var(--timing, 1) * 0.1s) calc(var(--delay, 0) * 0.1s) cubic-bezier(0, 0.75, 0.75, 1.25) forwards;
+  animation: drawTitle calc(var(--timing, 1) * 0.1s)
+    calc(var(--delay, 0) * 0.1s) cubic-bezier(0, 0.75, 0.75, 1.25) forwards;
 }
 
 svg .title-group path:nth-child(1) {
   --delay: 1;
 }
-
 svg .title-group path:nth-child(2) {
   --delay: 2;
 }
-
 svg .title-group path:nth-child(3) {
   --delay: 3;
 }
-
 svg .title-group path:nth-child(4) {
   --delay: 4;
 }
-
 svg .title-group path:nth-child(5) {
   --delay: 5;
 }
-
 svg .title-group path:nth-child(6) {
   --delay: 6;
 }
-
 svg .title-group path:nth-child(7) {
   --delay: 7;
 }
-
 svg .title-group path:nth-child(8) {
   --delay: 8;
 }
-
 svg .title-group path:nth-child(9) {
   --delay: 9;
 }
-
 svg .title-group path:nth-child(10) {
   --delay: 10;
 }
-
 svg .title-group path:nth-child(11) {
   --delay: 11;
 }
-
 svg .title-group path:nth-child(12) {
   --delay: 12;
 }
-
 svg .title-group path:nth-child(13) {
   --delay: 13;
 }
-
 svg .title-group path:nth-child(14) {
   --delay: 14;
 }
-
 svg .title-group path:nth-child(15) {
   --delay: 15;
 }
@@ -91,7 +78,6 @@ svg .title-group path:nth-child(17) {
 svg .title-group path:nth-child(18) {
   --delay: 18;
 }
-
 svg .title-group path:nth-child(19) {
   --delay: 19;
 }
@@ -104,12 +90,12 @@ svg .title-group path:nth-child(20) {
   position: absolute;
   visibility: hidden;
 }
-
 /* 
 .color-mode {
   color: var(--text);
   text-indent: -999em;
 } */
+
 .content h1 {
   max-width: 100%;
   white-space: pre-wrap;
@@ -137,23 +123,18 @@ svg .title-group path:nth-child(20) {
 .content a[href*="github.com"] {
   --underline-color: #ffd33d;
 }
-
 .content a[href*="codepen.io"] {
   --underline-color: #111111;
 }
-
 .content a[href*="twitter.com"] {
   --underline-color: #08a0e9;
 }
-
 .content a[href*="dribbble.com"] {
   --underline-color: #ea4c89;
 }
-
 .content a[href*="linkedin.com"] {
   --underline-color: #0e76a8;
 }
-
 .content a[href*="instagram.com"] {
   --underline-color: linear-gradient(
     to right bottom,
@@ -187,7 +168,6 @@ body {
   border: 1px solid var(--ol-text);
   position: relative;
 }
-
 .content .example::before {
   content: "example";
   position: absolute;
@@ -221,7 +201,8 @@ article.experience::before {
 }
 
 @keyframes pulseBulb {
-  0%, 100% {
+  0%,
+  100% {
     transform: scale(1.2);
   }
   50% {
@@ -235,18 +216,16 @@ article.experience--current::before {
 article.experience {
   margin-top: 2rem;
 }
-
 article.experience * {
   margin-top: 0.5rem;
 }
-
 article.experience h6 {
   opacity: 0.5;
   font-size: 0.875em;
+
   font-weight: normal;
   letter-spacing: 0.05em;
 }
-
 article.experience h4 {
   font-weight: normal;
 }

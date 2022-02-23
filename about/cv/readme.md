@@ -1,0 +1,5 @@
+---
+archive: sections
+---
+
+# Curriculum Vitae

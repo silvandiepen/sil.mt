@@ -1,8 +1,10 @@
 ---
-background: secondary50
+style: background:var(--ol-secondary25)
+title: IDE & Terminal
+order: 3
 ---
 
-## IDE and Terminal
+### IDE and Terminal
 
 IDE
 : VS Code with my own theme and a load of plugins.

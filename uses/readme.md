@@ -1,6 +1,7 @@
 ---
-type: sections
-isArchive: true
+archive: sections
+menuChildren: true
+order: 3
 ---
 
 # Uses

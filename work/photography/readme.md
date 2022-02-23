@@ -1,6 +1,5 @@
 ---
-type: articles
-isArchive: true
+archive: articles
 ---
 
 # Photography

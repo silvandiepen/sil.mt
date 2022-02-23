@@ -1,7 +1,7 @@
 ---
-type: sections
-isArchive: true
+archive: sections
 title: About
+order: 1
 ---
 
 # About

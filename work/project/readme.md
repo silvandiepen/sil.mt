@@ -1,6 +1,5 @@
 ---
-type: sections
-isArchive: true
+archive: sections
 ---
 
 # Projects

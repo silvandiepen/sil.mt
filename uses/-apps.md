@@ -1,8 +1,10 @@
 ---
-background: secondary10
+style: background:var(--ol-primary10)
+title: Apps
+order: 10
 ---
 
-## Apps
+### Apps
 
 Browser
 

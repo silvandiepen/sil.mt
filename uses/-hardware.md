@@ -1,8 +1,10 @@
 ---
-background: secondary25
+title: Hardware
+style: background:var(--ol-secondary10)
+order: 1
 ---
 
-## Hardware
+### Hardware
 
 Workstation
 : 13" Apple MacBook Pro M1

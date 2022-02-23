@@ -1,7 +1,7 @@
 ---
-type: blog
-isArchive: true
+archive: blog
 title: Blog
+order: 4
 ---
 
 # Blog

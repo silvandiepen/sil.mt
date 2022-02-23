@@ -1,5 +1,6 @@
 ---
-background: primary75
+order: 50
+style: background:var(--ol-primary25)
 ---
 
 ## Language Skills

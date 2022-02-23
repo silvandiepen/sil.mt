@@ -1,7 +1,6 @@
 ---
 projectTitle: Sil.mt
-projectLogo: assets/logo.svg
-projectStyle: /assets/custom.css
+projectStyle: /assets/custom.scss
 projectDescription: Little personal website of Sil van Diepen
 projectScript: /assets/switchColor.js
 title: Home

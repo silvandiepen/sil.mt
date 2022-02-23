@@ -1,5 +1,6 @@
 ---
-background: primary
+order: 10
+style: background:var(--ol-secondary10)
 ---
 
 ## Interests
@@ -14,7 +15,7 @@ Illustration
 
 Code Projects
 
-: When I have time, I build little projects to make my life or work easier. Or sometimes just to learn new techologies. [Projects](https://sil.mt/projects)
+: When I have time, I build little projects to make my life or work easier. Or sometimes just to learn new techologies. [Projects](https://sil.mt/work/project)
 
 Food & Cooking
 
