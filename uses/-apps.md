@@ -1,5 +1,5 @@
 ---
-style: background:var(--ol-primary10)
+style: background:var(--primary-10)
 title: Apps
 order: 10
 ---

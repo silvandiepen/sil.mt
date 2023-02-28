@@ -1,6 +1,6 @@
 ---
 order: 10
-style: background:var(--ol-secondary10)
+style: background:var(--secondary-10)
 ---
 
 ## Interests

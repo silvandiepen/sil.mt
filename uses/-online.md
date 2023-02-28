@@ -1,6 +1,6 @@
 ---
 order: 4
-style: background:var(--ol-primary25)
+style: background:var(--primary-30)
 title: Online
 ---
 

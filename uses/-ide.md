@@ -1,5 +1,5 @@
 ---
-style: background:var(--ol-secondary25)
+style: background:var(--secondary-30)
 title: IDE & Terminal
 order: 3
 ---

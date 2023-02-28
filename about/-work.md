@@ -12,7 +12,14 @@ An overview of all my current and past jobs;
 
 <article class="experience experience--current">
 
-###### January 2022
+###### January 2022 - current
+
+#### Senior Frontend Developer at [Yieldstreet](https://www.yieldstreet.com)
+
+</article>
+<article class="experience ">
+
+###### January 2022 - December 2022
 
 #### Senior Technical Consultant at [Vue Storefront](https://www.vuestorefront.io)
 
