@@ -17,7 +17,8 @@ svg * {
 }
 svg .title-group path {
   transform: scale(0);
-  animation: drawTitle calc(var(--timing, 1) * 0.1s) calc(var(--delay, 0) * 0.1s) cubic-bezier(0, 0.75, 0.75, 1.25) forwards;
+  animation: drawTitle calc(var(--timing, 1) * 0.1s)
+    calc(var(--delay, 0) * 0.1s) cubic-bezier(0, 0.75, 0.75, 1.25) forwards;
 }
 
 svg .title-group path:nth-child(1) {
@@ -165,88 +166,132 @@ svg .title-group path:nth-child(20) {
   );
 }
 
-body {
-  --transition: 0.3s cubic-bezier(0, 0.75, 0.75, 1.25);
-  --ol-current-saturation: 60;
-  --ol-negative-lightness: 75;
-}
-
-.content .images p img {
-  width: 100%;
-  max-width: 100%;
-  border-radius: var(--ol-border-radius);
-}
-
-.content .images p img + br + img {
-  margin-top: 1em;
-}
-
-.content .example {
-  padding: var(--ol-space);
-  border-radius: var(--ol-border-radius);
-  border: 1px solid var(--ol-text);
+.archive--section {
   position: relative;
 }
 
-.content .example::before {
-  content: "example";
-  position: absolute;
-  left: var(--ol-space);
-  top: 0;
-  background-color: var(--ol-background);
-  color: var(--ol-text);
-  padding: calc(var(--ol-space) / 4);
-  border-radius: var(--ol-border-radius);
-  transform: translateY(-50%);
-  text-transform: uppercase;
-  font-size: 0.75em;
-  letter-spacing: 1px;
-}
-
-article.experience {
-  margin-top: 1em;
-  position: relative;
-}
-
-article.experience::before {
+.archive--section#en-about--interests::before,
+.archive--section#en-uses--hardware::before {
   content: "";
   display: block;
-  width: 0.5em;
-  height: 0.5em;
+  width: var(--space-xl);
+  background-color: var(--background);
+  height: 100%;
   position: absolute;
-  top: 0.125em;
-  border-radius: 50%;
-  background-color: var(--ol-secondary);
-  left: -1em;
+  top: 0;
 }
-
-@keyframes pulseBulb {
-  0%, 100% {
-    transform: scale(1.2);
-  }
-  50% {
-    transform: scale(0.8);
+.archive--section#en-about--interests::before {
+  left: 0;
+}
+@media screen and (max-width: 720px) {
+  .archive--section#en-about--interests::before {
+    width: var(--space-l);
   }
 }
-article.experience--current::before {
-  animation: pulseBulb 1s infinite;
+.archive--section#en-uses--hardware::before {
+  right: 0;
+  width: 12.5vw;
 }
 
-article.experience {
-  margin-top: 2rem;
+.archive--section#en-about--languages::before {
+  content: "";
+  display: block;
+  width: 110svw;
+  background-color: inherit;
+  height: 4em;
+  transform-origin: 100% 100%;
+  transform: rotate(1.5deg);
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.archive--section#en-about--languages::after {
+  content: "";
+  display: block;
+  width: 100vw;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  height: 2em;
+  background-image: linear-gradient(
+    to right bottom,
+    var(--primary-30) 50%,
+    transparent 50%
+  );
+  background-size: 12.5vw 2em;
 }
 
-article.experience * {
-  margin-top: 0.5rem;
+.archive--section#en-uses--hardware::after {
+  content: "";
+  display: block;
+  width: 100vw;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  height: 2em;
+  background-image: linear-gradient(
+      to right bottom,
+      var(--background) 50%,
+      transparent 50%
+    ),
+    linear-gradient(to right bottom, var(--secondary-10) 50%, transparent 50%);
+  background-size: 12.5vw 2em, 12.5vw 2em;
+  background-repeat: no-repeat, repeat;
+  background-position: top right, top left;
+  z-index: 5;
 }
 
-article.experience h6 {
-  opacity: 0.5;
-  font-size: 0.875em;
-  font-weight: normal;
-  letter-spacing: 0.05em;
+.archive--section#en-uses--apps::after {
+  content: "";
+  display: block;
+  width: 100vw;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 2vw;
+  background-image: linear-gradient(
+    to right,
+    var(--foreground) 50%,
+    transparent 50%
+  );
+  background-size: 4vw 2vw;
+  background-repeat: repeat;
+  z-index: 5;
 }
 
-article.experience h4 {
-  font-weight: normal;
+.archive--section#en-uses--online::after {
+  content: "";
+  display: block;
+  width: 100vw;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 2vw;
+  background-image: linear-gradient(
+    to right,
+    var(--primary-10) 50%,
+    transparent 50%
+  );
+  background-size: 4vw 2vw;
+  background-repeat: repeat;
+  z-index: 5;
+}
+.page-- .main .section {
+  position: relative;
+}
+.page-- .main .section::before {
+  content: "";
+  width: 100vw;
+  aspect-ratio: 1/1;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-image: linear-gradient(
+      to bottom,
+      var(--background),
+      var(--background)
+    ),
+    radial-gradient(closest-side, transparent 100%, var(--foreground));
+  background-size: 100% 50%, 100% 100%;
+  background-repeat: no-repeat;
 }

@@ -62,7 +62,6 @@ body[color-mode="dark"] {
     --background: black;
     --foreground: white;
   }
-}
 ```
 
 In this way, the page will always show the right colors, based on your defined setting.

@@ -1,8 +1,20 @@
 {
   "colors": {
-    "primary": "#7b2e94",
-    "secondary": "#2dace7",
+    "secondary": "#7b2e94",
+    "primary": "#2dace7",
     "dark": "#031e2b",
     "light": "#feffee"
+  },
+  "socials": [
+    "https://instagram.com/silvandiepen",
+    "https://github.com/silvandiepen",
+    "https://codepen.io/silvandiepen",
+    "https://www.twitter.com/silvandiepen",
+    "https://dribbble.com/silvandiepen",
+    "https://linkedin.com/silvandiepen"
+  ],
+  "copyright": "&copy; 2023 - Sil van Diepen",
+  "style": {
+    "custom": "/assets/custom.css"
   }
 }
