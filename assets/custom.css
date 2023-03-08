@@ -198,7 +198,7 @@ svg .title-group path:nth-child(20) {
   display: block;
   width: 110svw;
   background-color: inherit;
-  height: 4em;
+  height: 4vw;
   transform-origin: 100% 100%;
   transform: rotate(1.5deg);
   position: absolute;
@@ -276,7 +276,7 @@ svg .title-group path:nth-child(20) {
   background-repeat: repeat;
   z-index: 5;
 }
-.page-- .main .section {
+/* .page-- .main .section {
   position: relative;
 }
 .page-- .main .section::before {
@@ -294,4 +294,4 @@ svg .title-group path:nth-child(20) {
     radial-gradient(closest-side, transparent 100%, var(--foreground));
   background-size: 100% 50%, 100% 100%;
   background-repeat: no-repeat;
-}
+} */
