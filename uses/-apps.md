@@ -4,6 +4,8 @@ title: Apps
 order: 10
 ---
 
+<sil-icon-apps style="margin: 0; font-size: 4vw; position: absolute; transform: translateX(-150%)"></sil-icon-apps>
+
 ### Apps
 
 Browser

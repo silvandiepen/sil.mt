@@ -1,8 +1,8 @@
 ---
 archive: sections
-menuChildren: true
 order: 3
 title: Uses
+icon: sil-icon-laptop
 ---
 
 # What I use on a daily basis, for work and my own things.

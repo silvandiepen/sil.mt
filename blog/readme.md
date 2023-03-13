@@ -2,6 +2,7 @@
 archive: blog
 title: Blog
 order: 4
+icon: sil-icon-book
 ---
 
 # Blog

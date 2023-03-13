@@ -4,6 +4,8 @@ style: background:var(--secondary-10)
 order: 1
 ---
 
+<sil-icon-laptop style="margin: 0; font-size: 4vw; position: absolute; transform: translateX(-150%)"></sil-icon-laptop>
+
 ### Hardware
 
 Workstation

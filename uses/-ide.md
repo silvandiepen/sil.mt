@@ -4,6 +4,9 @@ title: IDE & Terminal
 order: 3
 ---
 
+<sil-icon-terminal style="margin: 0; font-size: 4vw; position: absolute; transform: translateX(-150%)"></sil-icon-terminal>
+
+
 ### IDE and Terminal
 
 IDE
