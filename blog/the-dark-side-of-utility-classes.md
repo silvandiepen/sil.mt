@@ -75,7 +75,7 @@ Instead of applying the .truncate class on the html, bloating up the html you co
 In both ways, all the styling for the element will be still together. Therefor it is easier to see in your style files what is actually going on with that element, instead that it is spread. 
 
 In the case of the @extend, the element class will be added to the truncate and the rendered css will look as follows;
-```
+```css
 .truncate, .my-element__label {
   white-space: nowrap;
   overflow: hidden;
@@ -83,7 +83,7 @@ In the case of the @extend, the element class will be added to the truncate and 
 }
 ```
 For the mixin variant, the css will be a little cleaner and becomes just this;
-```
+```css
 .my-element__label {
   white-space: nowrap;
   overflow: hidden;
@@ -96,14 +96,14 @@ For the mixin variant, the css will be a little cleaner and becomes just this;
 In the case that you work really heavily with the utility classes and do not always even have specific selectors for elements. It also makes it harder to go through a project based on classes. Finding which component does a certain thing based on the html becomes a lot harder. Whenever the html is clean and the html classes only exists out of bemm classes, practically every element will get it's own unique identifier. This makes it a lot easier to search through the code and find that specific class. 
 
 Good luck finding this element;
-```
+```html
 <div class="bg-gray-200 p-6 rounded-lg shadow-md max-w-sm mx-auto">
   <span class="text-blue-600 font-bold text-lg tracking-wide uppercase">Hello, World!</span>
 </div>
 
 ```
 But this is a lot easier to find.
-```
+```html
 <div class="card">
   <span class="card__text">Hello, World!</span>
 </div>
