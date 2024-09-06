@@ -17,18 +17,18 @@ However, these advantages come at a cost. The reliance on utility classes can le
 
 Utility classes often result in a series of problems that can be difficult to resolve:
 
-1. **Design Logic in Markup**: Utility classes violate the separation of concerns principle by injecting design logic into the markup.
-2. **Code Bloat**: Utility classes can lead to bloated HTML, resulting from repeated use and increased file size.
-3. **Inconsistent Design Language**:
-	* **Incoherent Styles**: Overuse of utility classes leads to inconsistent application of design principles, resulting in a disjointed user experience.
-	* **Difficulty in Ensuring Consistency**: It becomes harder to ensure consistent styling across a large project when different developers apply utility classes based on
+- **Design Logic in Markup**: Utility classes violate the separation of concerns principle by injecting design logic into the markup.
+- **Code Bloat**: Utility classes can lead to bloated HTML, resulting from repeated use and increased file size.
+- **Inconsistent Design Language**:
+	- **Incoherent Styles**: Overuse of utility classes leads to inconsistent application of design principles, resulting in a disjointed user experience.
+	- **Difficulty in Ensuring Consistency**: It becomes harder to ensure consistent styling across a large project when different developers apply utility classes based on
 their interpretations.
-4. **Poor Reusability**:
-	* **Limited Extensibility**: Utility classes can be limiting when you need to build more complex or responsive designs.
-	* **Impact on Accessibility**: Over-reliance on visual styling alone might not translate well for screen readers or other assistive technologies.
-5. **Maintenance Challenges**:
-	* **Harder to Track Changes**: If utility classes are used extensively, tracking down where styles are applied and making updates can be difficult.
-	* **Scalability Issues**: As the project grows, the number of utility classes can become overwhelming, making it difficult to manage and scale the codebase effectively.
+- **Poor Reusability**:
+	- **Limited Extensibility**: Utility classes can be limiting when you need to build more complex or responsive designs.
+	- **Impact on Accessibility**: Over-reliance on visual styling alone might not translate well for screen readers or other assistive technologies.
+- **Maintenance Challenges**:
+	- **Harder to Track Changes**: If utility classes are used extensively, tracking down where styles are applied and making updates can be difficult.
+	- **Scalability Issues**: As the project grows, the number of utility classes can become overwhelming, making it difficult to manage and scale the codebase effectively.
 
 ## The Consequences: Inconsistent Design, Accessibility Issues, and Maintenance Nightmares
 
@@ -62,9 +62,9 @@ Instead of applying the .truncate class on the html, bloating up the html you co
 @mixin it.
 ```css
 @mixin truncate {
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
 }
 
 .my-element__label{
