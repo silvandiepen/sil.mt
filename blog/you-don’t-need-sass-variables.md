@@ -1,3 +1,9 @@
+---
+tags: custom properties, css, styling, sass, variables
+category: css
+date: 2024-11-08
+---
+
 # You Don't Need Sass Variables Anymore
 
 If you've been writing CSS for a while, you're probably familiar with Sass variables. They've been a cornerstone of maintainable CSS for years, helping us manage colors, spacing, and other repeatable values throughout our stylesheets. But with the introduction of CSS Custom Properties (also known as CSS Variables), many of our old Sass patterns have become unnecessary or even limiting.
@@ -22,12 +28,12 @@ $border-radius: 4px;
     background: $primary-color;
     border-radius: $border-radius;
     font-size: $font-size-base;
-    
+
     &.large {
         font-size: $font-size-large;
         padding: ($spacing-unit * 1.5) ($spacing-unit * 3);
     }
-    
+
     &:hover {
         background: darken($primary-color, 10%);
     }
@@ -60,7 +66,7 @@ Let's transform this code to use CSS Custom Properties instead:
    --button-padding-y: var(--spacing-unit);
    --button-color: var(--color-primary);
    --button-font-size: var(--font-size-base);
-   
+
    padding: var(--button-padding-y) var(--button-padding-x);
    background: var(--button-color);
    border-radius: var(--border-radius);
@@ -96,7 +102,7 @@ When building components, proper scoping is crucial. Here's how to approach it:
     --card-padding: var(--spacing-unit);
     --card-bg: white;
     --card-border: #eee;
-    
+
     padding: var(--card-padding);
     background: var(--card-bg);
     border: 1px solid var(--card-border);
@@ -107,7 +113,7 @@ When building components, proper scoping is crucial. Here's how to approach it:
     --nav-height: 60px;
     --nav-bg: var(--color-primary);
     --nav-item-spacing: var(--spacing-unit);
-    
+
     height: var(--nav-height);
     background: var(--nav-bg);
 }
@@ -163,16 +169,16 @@ Let's look at how to structure more complex components:
     --card-bg: white;
     --card-border-color: #eee;
     --card-radius: var(--border-radius, 4px);
-    
+
     /* Header subcomponent variables */
     --card-header-bg: var(--card-bg);
     --card-header-padding: var(--card-padding);
     --card-header-border: var(--card-border-color);
-    
+
     /* Content subcomponent variables */
     --card-content-padding: var(--card-padding);
     --card-content-gap: calc(var(--spacing-unit) * 0.5);
-    
+
     background: var(--card-bg);
     border-radius: var(--card-radius);
     border: 1px solid var(--card-border-color);
@@ -201,14 +207,14 @@ Custom Properties excel at handling component states:
     --dropdown-is-open: 0;
     --dropdown-panel-height: auto;
     --dropdown-transition: 0.3s ease;
-    
+
     .dropdown-panel {
         height: calc(var(--dropdown-is-open) * var(--dropdown-panel-height));
         opacity: var(--dropdown-is-open);
         transition: height var(--dropdown-transition),
                    opacity var(--dropdown-transition);
     }
-    
+
     &[aria-expanded="true"] {
         --dropdown-is-open: 1;
     }
@@ -222,10 +228,10 @@ Responsive Component Design
 .container {
     --container-width: 1200px;
     --container-padding: var(--spacing-unit);
-    
+
     width: min(var(--container-width), 100%);
     padding: 0 var(--container-padding);
-    
+
     @media (max-width: 768px) {
         --container-padding: calc(var(--spacing-unit) * 0.5);
     }
@@ -260,7 +266,7 @@ This becomes especially powerful when building interactive components:
         (var(--slider-value) - var(--slider-min)) /
         (var(--slider-max) - var(--slider-min)) * 100%
     );
-    
+
     .thumb {
         left: var(--slider-thumb-position);
     }
@@ -282,7 +288,7 @@ slider.addEventListener('input', (e) => {
     --input-padding: var(--spacing-unit);
     --input-border: 1px solid var(--color-border);
     --input-radius: var(--border-radius);
-    
+
     height: var(--input-height);
     padding: var(--input-padding);
     border: var(--input-border);
@@ -292,10 +298,10 @@ slider.addEventListener('input', (e) => {
 /* Input group composition */
 .input-group {
     --input-group-gap: calc(var(--spacing-unit) * 0.5);
-    
+
     display: flex;
     gap: var(--input-group-gap);
-    
+
     /* Adjust child components */
     > .button {
         --button-height: var(--input-height);
@@ -330,11 +336,11 @@ slider.addEventListener('input', (e) => {
     /* Theme tokens */
     --color-primary: #0066cc;
     --color-secondary: #cc3366;
-    
+
     /* Layout tokens */
     --spacing-unit: 8px;
     --container-width: 1200px;
-    
+
     /* Typography tokens */
     --font-size-base: 16px;
     --line-height-base: 1.5;
@@ -344,7 +350,7 @@ slider.addEventListener('input', (e) => {
     /* Component-specific variables */
     --component-spacing: var(--spacing-unit);
     --component-bg: var(--color-primary);
-    
+
     /* Computed values */
     --component-total-height: calc(
         var(--font-size-base) * var(--line-height-base) +
@@ -359,7 +365,7 @@ slider.addEventListener('input', (e) => {
 .component {
     /* Fallback for missing theme variables */
     --component-color: var(--color-primary, #0066cc);
-    
+
     /* Multiple fallback chain */
     --component-spacing: var(
         --component-custom-spacing,
@@ -373,7 +379,7 @@ slider.addEventListener('input', (e) => {
 While CSS Custom Properties are powerful, there are still valid use cases for Sass:
 
 #1. Build-time Constants
-   
+
 ```
 $grid-columns: 12; // Never changes, used in loops
 $breakpoints: (
@@ -384,12 +390,12 @@ $breakpoints: (
 ```
 
 #2. Complex calculations
-   
+
 ```
 @function calculate-fluid-size($min-size, $max-size, $min-width, $max-width) {
     $slope: ($max-size - $min-size) / ($max-width - $min-width);
     $y-intersection: -1 * $min-width * $slope + $min-size;
-    
+
     @return clamp(
         #{$min-size}px,
         #{$y-intersection}px + #{$slope * 100}vw,
@@ -412,7 +418,7 @@ CSS Custom Properties continue to evolve. The @property rule brings type checkin
 .component {
     opacity: var(--component-opacity);
     transition: --component-opacity 200ms ease;
-    
+
     &:hover {
         --component-opacity: 0.8;
     }

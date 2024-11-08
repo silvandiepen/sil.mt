@@ -1,3 +1,10 @@
+---
+tags: custom properties, css, styling, sass, variables, typing
+category: css
+date: 2024-11-08
+slug: typing-css
+---
+
 # Typing with CSS Custom Properties
 
 CSS Custom Properties become even more powerful when combined with type definitions. The @property rule allows us to define exactly what kind of values our properties can accept, providing type safety and enabling new possibilities like animations and transitions.
@@ -30,7 +37,7 @@ __Color Values___
     --theme-color: rgb(100, 120, 200);
     --theme-color: hsl(210, 50%, 50%);
     --theme-color: #ff0000;
-    
+
     /* Will be invalid */
     --theme-color: 20px;  /* Wrong type */
     --theme-color: blue 20%;  /* Invalid syntax */
