@@ -156,7 +156,7 @@ These changes happen instantly, without requiring a rebuild or complex JavaScrip
 
 Let's look at how to structure more complex components:
 
-```
+```css
 /* Card component with subcomponents */
 .card {
     --card-padding: var(--spacing-unit);
@@ -267,7 +267,7 @@ This becomes especially powerful when building interactive components:
 }
 ```
 
-```js
+```javascript
 slider.addEventListener('input', (e) => {
     slider.style.setProperty('--slider-value', e.target.value);
 });
@@ -320,7 +320,8 @@ slider.addEventListener('input', (e) => {
 .element {
     --element-primary-color: blue;
     --element-content-spacing: 1rem;
-}```
+}
+```
 
 2. Logical Variable Organization
 
@@ -371,7 +372,8 @@ slider.addEventListener('input', (e) => {
 
 While CSS Custom Properties are powerful, there are still valid use cases for Sass:
 
-1. Build-time Constants
+#1. Build-time Constants
+   
 ```
 $grid-columns: 12; // Never changes, used in loops
 $breakpoints: (
@@ -381,7 +383,8 @@ $breakpoints: (
 );
 ```
 
-2. Complex calculations
+#2. Complex calculations
+   
 ```
 @function calculate-fluid-size($min-size, $max-size, $min-width, $max-width) {
     $slope: ($max-size - $min-size) / ($max-width - $min-width);
